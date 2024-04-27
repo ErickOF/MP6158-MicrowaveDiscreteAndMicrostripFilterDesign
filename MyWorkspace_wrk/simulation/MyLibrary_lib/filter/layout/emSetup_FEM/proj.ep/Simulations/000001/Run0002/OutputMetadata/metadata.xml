@@ -1,0 +1,62 @@
+<!DOCTYPE RunOutput>
+<RunOutput>
+  <OutputObjectMetadata ptrID="0" subjectID="1">
+    <CircuitComponentOutputObjectMetadata Direction="Automatic" ComponentType="VoltageFeed" Polarity="Positive" PortNumber="1" Capacitance="0" Name="P1" Inductance="0" Resistance="50" Arrangement="Parallel" IsActive="false" IsPort="true" Amplitude="1" PhaseShift="0">
+      <OutputObjectMetadata ResultDrivers="femresultsprocess"/>
+      <PortLocation x="0" y="0" z="0"/>
+      <FeedLocation1 x="-0.010500000000000001" y="0.00089999999999999998" z="0"/>
+      <FeedLocation2 x="-0.010500000000000001" y="0.00089999999999999998" z="0.0016000000000000001"/>
+    </CircuitComponentOutputObjectMetadata>
+  </OutputObjectMetadata>
+  <OutputObjectMetadata ptrID="2" subjectID="3">
+    <CircuitComponentOutputObjectMetadata Direction="Automatic" ComponentType="VoltageFeed" Polarity="Positive" PortNumber="2" Capacitance="0" Name="P2" Inductance="0" Resistance="50" Arrangement="Parallel" IsActive="true" IsPort="true" Amplitude="1" PhaseShift="0">
+      <OutputObjectMetadata ResultDrivers="femresultsprocess"/>
+      <PortLocation x="0" y="0" z="0"/>
+      <FeedLocation1 x="0.018584" y="0.00089999999999999998" z="0"/>
+      <FeedLocation2 x="0.018584" y="0.00089999999999999998" z="0.0016000000000000001"/>
+    </CircuitComponentOutputObjectMetadata>
+  </OutputObjectMetadata>
+  <OutputObjectMetadata ptrID="4" subjectID="5">
+    <SystemOutputObjectMetadata Name="System">
+      <OutputObjectMetadata ResultDrivers="femresultsprocess"/>
+      <MaterialList>
+        <Item>AIR</Item>
+        <Item>Copper</Item>
+        <Item>Copper_(140, 3.5e-05, None, True)</Item>
+        <Item>Proyecto</Item>
+        <Item>Averaged Materials</Item>
+      </MaterialList>
+      <ElectricAssociations>
+        <Association Key="0">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">0 0 0</Indices>
+        </Association>
+        <Association Key="1">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">2 2 2</Indices>
+        </Association>
+        <Association Key="2">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">3 3 3</Indices>
+        </Association>
+        <Association Key="3">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">4 4 4</Indices>
+        </Association>
+        <Association Key="4">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">5 5 5</Indices>
+        </Association>
+      </ElectricAssociations>
+      <MagneticAssociations>
+        <Association Key="0">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">0 0 0</Indices>
+        </Association>
+        <Association Key="1">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">0 0 0</Indices>
+        </Association>
+        <Association Key="2">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">0 0 0</Indices>
+        </Association>
+        <Association Key="3">
+          <Indices DataFormat="ASCII" Compressed="false" Count="3">0 0 0</Indices>
+        </Association>
+      </MagneticAssociations>
+    </SystemOutputObjectMetadata>
+  </OutputObjectMetadata>
+</RunOutput>

@@ -1,0 +1,588 @@
+{
+    "abort_simulation": false,
+    "cutoff_intervals": [],
+    "fg_run_status": 1,
+    "interrupt_simulation": false,
+    "nb_sub_solver_respawns": 0,
+    "setup_data": {
+        "allWaveguidePortsAreInternal": "1",
+        "hasWaveguidePorts": "0",
+        "sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\n"
+    },
+    "simulation_phase": "done",
+    "timestamp_state": "2024-04-21 18:53:18.036998",
+    "work_queue": [
+        {
+            "args": {
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "lvldir": "level6"
+            },
+            "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n",
+            "jobId": "0",
+            "processed": 1,
+            "status": "done",
+            "type": "fg_determine_setup_data",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "lvldir": "level6",
+                "maxF": "5000000000.000000000000000",
+                "minF": "0.000000000000000"
+            },
+            "data": "",
+            "jobId": "1",
+            "processed": 1,
+            "status": "done",
+            "type": "determine_cutoff_intervals",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "1000.000000000000000",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_1000.0"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "1000.000000000000000",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_1000.0"
+                },
+                "metadata": {
+                    "cpu_time": "1.406250000000000",
+                    "discretization_order": "0",
+                    "e_time": "1.492569200000000",
+                    "lst_success": "1",
+                    "memory": "234237952.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "2",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "1666667333.333333253860474",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_1666667333.3333333"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "1666667333.333333253860474",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_1666667333.3333333"
+                },
+                "metadata": {
+                    "cpu_time": "0.468750000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.929030400000000",
+                    "lst_success": "1",
+                    "memory": "234971136.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "3",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "3333333666.666666507720947",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_3333333666.6666665"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "3333333666.666666507720947",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_3333333666.6666665"
+                },
+                "metadata": {
+                    "cpu_time": "0.390625000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.149692800000000",
+                    "lst_success": "1",
+                    "memory": "236249088.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "4",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "833334166.666666626930237",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_833334166.6666666"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "833334166.666666626930237",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_833334166.6666666"
+                },
+                "metadata": {
+                    "cpu_time": "0.906250000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.664835500000000",
+                    "lst_success": "1",
+                    "memory": "236249088.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "5",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "4166666833.333333015441895",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_4166666833.333333"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "4166666833.333333015441895",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_4166666833.333333"
+                },
+                "metadata": {
+                    "cpu_time": "0.890625000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.663473800000000",
+                    "lst_success": "1",
+                    "memory": "236535808.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "6",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "2500000500.000000000000000",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_2500000500.0"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "2500000500.000000000000000",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_2500000500.0"
+                },
+                "metadata": {
+                    "cpu_time": "0.859375000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.417413900000000",
+                    "lst_success": "1",
+                    "memory": "236535808.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "7",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "1250000750.000000000000000",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_1250000750.0"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "1250000750.000000000000000",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_1250000750.0"
+                },
+                "metadata": {
+                    "cpu_time": "0.765625000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.682674200000000",
+                    "lst_success": "1",
+                    "memory": "236765184.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "8",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "1458334041.666666507720947",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_1458334041.6666665"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "1458334041.666666507720947",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_1458334041.6666665"
+                },
+                "metadata": {
+                    "cpu_time": "0.796875000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.419913400000000",
+                    "lst_success": "1",
+                    "memory": "236765184.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "9",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "3750000250.000000000000000",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_3750000250.0"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "3750000250.000000000000000",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_3750000250.0"
+                },
+                "metadata": {
+                    "cpu_time": "1.546875000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.652439300000000",
+                    "lst_success": "1",
+                    "memory": "236765184.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "10",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "4583333416.666666030883789",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_4583333416.666666"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "4583333416.666666030883789",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_4583333416.666666"
+                },
+                "metadata": {
+                    "cpu_time": "0.890625000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.415948300000000",
+                    "lst_success": "1",
+                    "memory": "236765184.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "11",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "4791666708.333333015441895",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_4791666708.333333"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "4791666708.333333015441895",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_4791666708.333333"
+                },
+                "metadata": {
+                    "cpu_time": "1.140625000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.666857500000000",
+                    "lst_success": "1",
+                    "memory": "237080576.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "12",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "4895833354.166666030883789",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_4895833354.166666"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "4895833354.166666030883789",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_4895833354.166666"
+                },
+                "metadata": {
+                    "cpu_time": "1.000000000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.412610200000000",
+                    "lst_success": "1",
+                    "memory": "237400064.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "13",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "2916667083.333333015441895",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_2916667083.333333"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "2916667083.333333015441895",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_2916667083.333333"
+                },
+                "metadata": {
+                    "cpu_time": "0.718750000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.422057800000000",
+                    "lst_success": "1",
+                    "memory": "237400064.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "14",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "2708333791.666666507720947",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_2708333791.6666665"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "2708333791.666666507720947",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_2708333791.6666665"
+                },
+                "metadata": {
+                    "cpu_time": "0.812500000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.666937200000000",
+                    "lst_success": "1",
+                    "memory": "237400064.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "15",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        },
+        {
+            "args": {
+                "Fsolve": "416667583.333333313465118",
+                "Icalc": "/../../Run0001/project.input",
+                "Igeo": "/../../Run0001/geometry.input",
+                "Iovm": "/level6/design.ovm",
+                "iterative_order": "2",
+                "lvldir": "level6",
+                "simdir": "f_416667583.3333333"
+            },
+            "data": {
+                "data": {
+                    "Fsolve": "416667583.333333313465118",
+                    "has_blg": "0",
+                    "iterative_converged": "1",
+                    "subdir": "f_416667583.3333333"
+                },
+                "metadata": {
+                    "cpu_time": "0.953125000000000",
+                    "discretization_order": "0",
+                    "e_time": "0.430433400000000",
+                    "lst_success": "1",
+                    "memory": "237400064.000000000000000",
+                    "nb_iter": "-1",
+                    "nb_unknowns": "27568",
+                    "norm_res": "-1.000000000000000",
+                    "solver_type": "1"
+                }
+            },
+            "jobId": "16",
+            "processed": 1,
+            "status": "done",
+            "type": "solve",
+            "workerId": "1"
+        }
+    ],
+    "x_solve_request_files_status": {},
+    "x_substatus_clients": {
+        "0": {
+            "aborted": 0,
+            "alive": 1,
+            "allow_respawn": 1,
+            "hostname": "ArthurPC",
+            "last_ping": "2024-04-21 18:53:15.998488"
+        },
+        "1": {
+            "aborted": 0,
+            "alive": 0,
+            "allow_respawn": 1,
+            "hostname": "ArthurPC",
+            "last_ping": "2024-04-21 18:53:16.981229"
+        }
+    }
+}

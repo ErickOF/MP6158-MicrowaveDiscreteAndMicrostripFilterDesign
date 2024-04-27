@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eobregon
+HostName                       RDS-Keysight.estudiantes.ie.tec.ac.cr
+ProcessIdentifier              8692
+ProcessCreationTime_UTC        1714176993
+ProcessCreationTime_Readable   Fri Apr 26 18:16:33 2024 Central America Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         Z:\Documents\Git\MP6158-MicrowaveDiscreteAndMicrostripFilterDesign\MyWorkspace_wrk\MyLibrary_lib\filter\layout\layout.oa.cdslck
+TimeEditLocked                 Fri Apr 26 18:26:20 2024 Central America Standard Time

@@ -1,0 +1,136 @@
+Geometry file version 3.20
+
+mesh_defined
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0 0 0
+0
+begin_<materials> 
+begin_<electricfreespace> ElectricFreeSpace
+material_number 0
+conductivity 0
+permittivity 1
+density 0
+end_<electricfreespace>
+begin_<electricperfectconductor> ElectricPerfectConductor
+material_number 1
+end_<electricperfectconductor>
+begin_<electric_surfaceresistance> Copper
+material_number 2
+surfresistance_real 0.000492611
+surfresistance_imag 0
+thickness 3.5e-05
+nominalTemperature 298.15
+linearTempCoef 0.00386
+quadraticTempCoef 0
+end_<electric_surfaceresistance>
+begin_<electric_surfaceresistance> Copper_(140, 3.5e-05, None, True)
+material_number 3
+surfresistance_real 0.000492611
+surfresistance_imag 0
+thickness 3.5e-05
+nominalTemperature 298.15
+linearTempCoef 0.00386
+quadraticTempCoef 0
+end_<electric_surfaceresistance>
+begin_<electric_djordjevic> Proyecto
+material_number 4
+permittivity 4.6
+UseLossTangent 
+imaginaryPart 0.0023
+evalFrequency 1e+09
+lowFrequency 1000
+highFrequency 1e+12
+density 0
+end_<electric_djordjevic>
+begin_<magneticfreespace> MagneticFreeSpace
+material_number 0
+conductivity 0
+permeability 1
+density 0
+end_<magneticfreespace>
+begin_<magneticperfectconductor> MagneticPerfectConductor
+material_number 1
+end_<magneticperfectconductor>
+end_<materials>
+begin_<materialMaps> 
+begin_<materialMap> FreeSpace
+materialNumber 0
+xElectricMaterial 0
+yElectricMaterial 0
+zElectricMaterial 0
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+begin_<materialMap> PEC
+materialNumber 1
+xElectricMaterial 1
+yElectricMaterial 1
+zElectricMaterial 1
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+begin_<materialMap> AIR
+materialNumber 2
+xElectricMaterial 0
+yElectricMaterial 0
+zElectricMaterial 0
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+begin_<materialMap> Copper
+materialNumber 3
+xElectricMaterial 2
+yElectricMaterial 2
+zElectricMaterial 2
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+begin_<materialMap> Copper_(140, 3.5e-05, None, True)
+materialNumber 4
+xElectricMaterial 3
+yElectricMaterial 3
+zElectricMaterial 3
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+begin_<materialMap> Proyecto
+materialNumber 5
+xElectricMaterial 4
+yElectricMaterial 4
+zElectricMaterial 4
+xMagneticMaterial 0
+yMagneticMaterial 0
+zMagneticMaterial 0
+end_<materialMap>
+end_<materialMaps>
+begin_<SurfaceRoughnesses> 
+end_<SurfaceRoughnesses>
+begin_<ConductorSurfaceRoughnesses> 
+end_<ConductorSurfaceRoughnesses>
+begin_<GridDefinition> 
+GridOriginInMeters -0.013625 -0.014575 -0.005
+NumberOfCellsInX 10
+NumberOfCellsInY 10
+NumberOfCellsInZ 10
+end_<GridDefinition>
+begin_<Deltas> 
+begin_<DelX> 
+0 0.003926
+end_<DelX>
+begin_<DelY> 
+0 0.00343889
+end_<DelY>
+begin_<DelZ> 
+0 0.00128889
+end_<DelZ>
+end_<Deltas>
+begin_<AveragedMaterialBins> 
+end_<AveragedMaterialBins>

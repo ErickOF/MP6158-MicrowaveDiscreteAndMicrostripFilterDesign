@@ -1,0 +1,682 @@
+Load ACIS file
+  acis version = ACIS 31.0 NT
+  product = Keysight Technologies
+  errmsg = success
+  entlist.count() = 5
+  Unit is  = 1
+removing transformation
+BODY 0 with transformation: scaling=1, translation=(4.0419999999999989,0.8999999999999998,-5)
+BODY 1 with transformation: scaling=1, translation=(0,0,0)
+  Body transf not removed as not necessary  1
+BODY 2 with transformation: scaling=1, translation=(0,0,1.6000000000000001)
+BODY 3 with transformation: scaling=1, translation=(0,0,0)
+  Body transf not removed as not necessary  3
+BODY 4 with transformation: scaling=1, translation=(4.041999999999998,0.89999999999999947,0.79999999999999938)
+separating bodies
+Entity 0,name=Simulation box, bb=(-13.625000000000004,-14.575000000000001,-5)->(21.709,16.375,6.5999999999999996)
+Entity 1,name=Proyecto, bb=(-13.625000000000004,-14.575000000000003,0)->(21.709000000000003,16.375,1.6000000000000001)
+Entity 2,name=, bb=(-10.5,-11.449999999999999,1.6000000000000001)->(18.584,13.25,1.6000000000000001)
+Entity 3,name=, bb=(-13.625000000000004,-14.575000000000003,0)->(21.709000000000003,16.375,0)
+Entity 4,name=*unknown*, bb=(-13.625000000000004,-14.575000000000003,-5)->(21.709,16.375,6.5999999999999979)
+[Combine] Creating backup - deep copy of [5] entities.
+[Combine] Object statistics computed in 0, allFacesPlanar = 1, dominant normal = 0,0,1
+
+[Combine] Initial healing distance = 	4.8383406825067626e-05
+[Combine] Final healing distance   = 	4.8383406825067626e-05
+[Combine] Adjusting spatial resolution.
+[Combine] Updated healing distance = 	4.8383406825067626e-05
+[Combine] Cleaning objects
+[Combine] Repairing and checking integrity of bodies
+[Combine] Tightening gaps
+[Combine] Face cutting skipped
+Restricting h (face curvature)
+Restricting h (face curvature)
+
+Line meshing completed:
+Mesh overview:
+  Vertices: 167
+  Edges:    179
+  Surfaces: 0
+  Volumes:  0
+
+Smaller local tree being used
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 375
+  Edges:    179
+  Surfaces: 803
+  Volumes:  0
+
+Surface optimization:
+  All faces planar: 1
+  All edges straight: 1
+totalActionsTaken = 1270
+
+2D optimization completed:
+Mesh overview:
+  Vertices: 375
+  Edges:    179
+  Surfaces: 803
+  Volumes:  0
+
+
+Surface meshing completed:
+Mesh overview:
+  Vertices: 335
+  Edges:    179
+  Surfaces: 723
+  Volumes:  0
+Checking boundary overlap - algorithm 5 - using [ 32 ] threads
+  Classified surfaces in [ 1.4399999999999999e-05 ]
+  Total # of surfaces [ 17 ]
+  Total # of surfaces to check [ 0 ]
+Checking consistency of domains - algorithm 1 = [ 3 ]
+All threads joined.
+All threads deleted.
+LocalH lock.
+[Overlap] Detected [ 0 ] overlapping elements
+[Overlap] succesful repair
+
+CheckBoundaries done. 
+
+Starting volume meshing:
+Mesh overview:
+  Vertices: 335
+  Edges:    179
+  Surfaces: 723
+  Volumes:  0
+blockfill local h
+rel filldist = 0.10000000000000001
++
+
+
+Points:           403
+Volume Elements:  1873
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 223
+0.05 -  0.1: 32
+ 0.1 - 0.15: 56
+0.15 -  0.2: 57
+ 0.2 - 0.25: 47
+0.25 -  0.3: 65
+ 0.3 - 0.35: 80
+0.35 -  0.4: 79
+ 0.4 - 0.45: 102
+0.45 -  0.5: 125
+ 0.5 - 0.55: 137
+0.55 -  0.6: 170
+ 0.6 - 0.65: 157
+0.65 -  0.7: 160
+ 0.7 - 0.75: 107
+0.75 -  0.8: 114
+ 0.8 - 0.85: 78
+0.85 -  0.9: 49
+ 0.9 - 0.95: 29
+0.95 -    1: 6
+total error: 1.5e+06
+free: 747, fixed: 1126
+
+Start SwapImprove
+free: 225, fixed: 1614
+
+Start SwapImprove
+
+
+Points:           403
+Volume Elements:  1833
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 221
+0.05 -  0.1: 30
+ 0.1 - 0.15: 47
+0.15 -  0.2: 53
+ 0.2 - 0.25: 45
+0.25 -  0.3: 52
+ 0.3 - 0.35: 75
+0.35 -  0.4: 84
+ 0.4 - 0.45: 98
+0.45 -  0.5: 127
+ 0.5 - 0.55: 136
+0.55 -  0.6: 158
+ 0.6 - 0.65: 158
+0.65 -  0.7: 160
+ 0.7 - 0.75: 111
+0.75 -  0.8: 113
+ 0.8 - 0.85: 77
+0.85 -  0.9: 53
+ 0.9 - 0.95: 28
+0.95 -    1: 7
+total error: 1.5e+06
+blockfill local h
+rel filldist = 0.1
++
+
+
+Points:           394
+Volume Elements:  1446
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 281
+0.05 -  0.1: 46
+ 0.1 - 0.15: 35
+0.15 -  0.2: 40
+ 0.2 - 0.25: 38
+0.25 -  0.3: 38
+ 0.3 - 0.35: 35
+0.35 -  0.4: 50
+ 0.4 - 0.45: 75
+0.45 -  0.5: 89
+ 0.5 - 0.55: 95
+0.55 -  0.6: 87
+ 0.6 - 0.65: 107
+0.65 -  0.7: 119
+ 0.7 - 0.75: 87
+0.75 -  0.8: 80
+ 0.8 - 0.85: 69
+0.85 -  0.9: 47
+ 0.9 - 0.95: 19
+0.95 -    1: 9
+total error: 6.1e+05
+free: 251, fixed: 1195
+
+Start SwapImprove
+free: 0, fixed: 1438
+
+Start SwapImprove
+
+
+Points:           394
+Volume Elements:  1438
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 274
+0.05 -  0.1: 51
+ 0.1 - 0.15: 36
+0.15 -  0.2: 36
+ 0.2 - 0.25: 35
+0.25 -  0.3: 37
+ 0.3 - 0.35: 36
+0.35 -  0.4: 49
+ 0.4 - 0.45: 75
+0.45 -  0.5: 88
+ 0.5 - 0.55: 95
+0.55 -  0.6: 90
+ 0.6 - 0.65: 108
+0.65 -  0.7: 117
+ 0.7 - 0.75: 89
+0.75 -  0.8: 81
+ 0.8 - 0.85: 68
+0.85 -  0.9: 46
+ 0.9 - 0.95: 19
+0.95 -    1: 8
+total error: 6.1e+05
+blockfill local h
+rel filldist = 0.1
++
+
+
+Points:           400
+Volume Elements:  693
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 167
+0.05 -  0.1: 6
+ 0.1 - 0.15: 6
+0.15 -  0.2: 11
+ 0.2 - 0.25: 9
+0.25 -  0.3: 16
+ 0.3 - 0.35: 24
+0.35 -  0.4: 29
+ 0.4 - 0.45: 39
+0.45 -  0.5: 43
+ 0.5 - 0.55: 42
+0.55 -  0.6: 47
+ 0.6 - 0.65: 35
+0.65 -  0.7: 47
+ 0.7 - 0.75: 37
+0.75 -  0.8: 51
+ 0.8 - 0.85: 39
+0.85 -  0.9: 28
+ 0.9 - 0.95: 13
+0.95 -    1: 4
+total error: 4.1e+05
+free: 0, fixed: 693
+
+Start SwapImprove
+free: 0, fixed: 693
+
+Start SwapImprove
+
+
+Points:           400
+Volume Elements:  693
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 167
+0.05 -  0.1: 6
+ 0.1 - 0.15: 6
+0.15 -  0.2: 11
+ 0.2 - 0.25: 9
+0.25 -  0.3: 16
+ 0.3 - 0.35: 24
+0.35 -  0.4: 29
+ 0.4 - 0.45: 39
+0.45 -  0.5: 43
+ 0.5 - 0.55: 42
+0.55 -  0.6: 47
+ 0.6 - 0.65: 35
+0.65 -  0.7: 47
+ 0.7 - 0.75: 37
+0.75 -  0.8: 51
+ 0.8 - 0.85: 39
+0.85 -  0.9: 28
+ 0.9 - 0.95: 13
+0.95 -    1: 4
+total error: 4.1e+05
+Vol Meshing added
+  1814 tetrahedra through Delaunay tetrahedralization
+  5 tetrahedra through advancing front tetrahedralization
+  3 passes on advancing front tetrahedralization
+
+
+Points:           386
+Volume Elements:  1819
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 1
+0.05 -  0.1: 4
+ 0.1 - 0.15: 9
+0.15 -  0.2: 17
+ 0.2 - 0.25: 11
+0.25 -  0.3: 14
+ 0.3 - 0.35: 42
+0.35 -  0.4: 66
+ 0.4 - 0.45: 98
+0.45 -  0.5: 145
+ 0.5 - 0.55: 155
+0.55 -  0.6: 195
+ 0.6 - 0.65: 198
+0.65 -  0.7: 233
+ 0.7 - 0.75: 172
+0.75 -  0.8: 184
+ 0.8 - 0.85: 127
+0.85 -  0.9: 85
+ 0.9 - 0.95: 49
+0.95 -    1: 14
+total error: 3.3e+03
+
+Volume meshing completed:
+Mesh overview:
+  Vertices: 386
+  Edges:    179
+  Surfaces: 723
+  Volumes:  1819
+Start CombineImprove
+tets with low volume: 4
+tets with zero volume: 2
+tets with low volume: 1
+tets with zero volume: 5
+tets with low volume: 1
+tets with zero volume: 5
+tets with low volume: 2
+tets with zero volume: 4
+tets with low volume: 2
+tets with zero volume: 7
+tets with zero volume: 6
+tets with low volume: 3
+tets with zero volume: 3
+tets with zero volume: 6
+tets illegal: 6
+9 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 3.5e+03
+
+Total badness = 3412.2768
+start SplitImprove
+Total badness = 3412.2768
+Splitt - Improve done
+Total badness = 3403.9344
+Improve Mesh
+Total badness = 3403.9344
+
+Total badness = 3395.2672
+Improve Mesh
+Total badness = 3395.2672
+
+Total badness = 3393.8298
+
+
+Points:           378
+Volume Elements:  1765
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 0
+0.05 -  0.1: 1
+ 0.1 - 0.15: 2
+0.15 -  0.2: 14
+ 0.2 - 0.25: 6
+0.25 -  0.3: 21
+ 0.3 - 0.35: 43
+0.35 -  0.4: 68
+ 0.4 - 0.45: 88
+0.45 -  0.5: 126
+ 0.5 - 0.55: 151
+0.55 -  0.6: 172
+ 0.6 - 0.65: 215
+0.65 -  0.7: 234
+ 0.7 - 0.75: 185
+0.75 -  0.8: 156
+ 0.8 - 0.85: 123
+0.85 -  0.9: 90
+ 0.9 - 0.95: 53
+0.95 -    1: 17
+total error: 3.1e+03
+Start CombineImprove
+tets with zero volume: 4
+1 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 3.4e+03
+
+Total badness = 3379.9092
+start SplitImprove
+Total badness = 3379.9092
+Splitt - Improve done
+Total badness = 3379.2196
+Improve Mesh
+Total badness = 3379.2196
+
+Total badness = 3379.1478
+Improve Mesh
+Total badness = 3379.1478
+
+Total badness = 3379.1472
+
+
+Points:           378
+Volume Elements:  1764
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 0
+0.05 -  0.1: 0
+ 0.1 - 0.15: 2
+0.15 -  0.2: 15
+ 0.2 - 0.25: 4
+0.25 -  0.3: 22
+ 0.3 - 0.35: 43
+0.35 -  0.4: 66
+ 0.4 - 0.45: 90
+0.45 -  0.5: 125
+ 0.5 - 0.55: 150
+0.55 -  0.6: 177
+ 0.6 - 0.65: 212
+0.65 -  0.7: 231
+ 0.7 - 0.75: 187
+0.75 -  0.8: 161
+ 0.8 - 0.85: 119
+0.85 -  0.9: 89
+ 0.9 - 0.95: 53
+0.95 -    1: 18
+total error: 3e+03
+Start CombineImprove
+tets with zero volume: 1
+tets illegal: 3
+1 elements combined
+CombineImprove done
+Improve Mesh
+Total badness = 3.4e+03
+
+Total badness = 3365.4867
+start SplitImprove
+Total badness = 3365.4867
+Splitt - Improve done
+Total badness = 3380.205
+Improve Mesh
+Total badness = 3380.205
+
+Total badness = 3374.0267
+Improve Mesh
+Total badness = 3374.0267
+
+Total badness = 3373.4211
+
+
+Points:           381
+Volume Elements:  1773
+0 low quality volume elements
+
+Volume elements in qualityclasses:
+   0 - 0.05: 0
+0.05 -  0.1: 0
+ 0.1 - 0.15: 0
+0.15 -  0.2: 10
+ 0.2 - 0.25: 9
+0.25 -  0.3: 21
+ 0.3 - 0.35: 39
+0.35 -  0.4: 70
+ 0.4 - 0.45: 89
+0.45 -  0.5: 129
+ 0.5 - 0.55: 159
+0.55 -  0.6: 178
+ 0.6 - 0.65: 212
+0.65 -  0.7: 229
+ 0.7 - 0.75: 189
+0.75 -  0.8: 162
+ 0.8 - 0.85: 116
+0.85 -  0.9: 90
+ 0.9 - 0.95: 55
+0.95 -    1: 16
+total error: 3e+03
+
+Volume optimization completed:
+Mesh overview:
+  Vertices: 381
+  Edges:    179
+  Surfaces: 723
+  Volumes:  1773
+Mesh generation completed.
+Generated 1773 Tetrahedra, 3669 Surfaces, 381 Points
+Timing information
+
+Em_Create_Mesh in workingDir	
+
+  Combine
+
+    ObjectStatistics
+	7.71e-05
+
+    Premesh
+	0.004368
+
+    MergeObjects
+	0.0001054
+
+    CleanObjects
+	0.0035195
+
+    CellInformation
+	0.0001841
+
+    CombineUnionRecursive
+	0.0032416
+
+    CleaningTopology
+	0.0001623
+
+    CombineRepairAndCheck
+	0.0004657
+
+    CombineGapTightening
+	0.0002315
+
+    PreFacetting
+	1.56e-05
+
+    AttachCt
+	1.37e-05
+
+    CtVolumesAreas
+	0.0003589
+
+    CtAreas
+	4.23e-05
+
+    Combine_CTIDCreation
+	8.41e-05
+
+    Combine_SaveSat
+	0.0009583
+
+    CreatingColorCodingCache
+	1.03e-05
+
+  Combine	0.0165758
+
+  GenerateMesh
+
+    AssignMaterialsPrepare
+
+      AttachCt
+	1.92e-05
+
+      CtVolumesAreas
+	8.46e-05
+
+      CtAreas
+	3.96e-05
+
+      CreateFaceDesc
+	5.56e-05
+
+    AssignMaterialsPrepare	0.0002171
+
+    GenerateMesh_hEstimation
+
+      GenerateMesh_hBySurfaceCurvature
+	7.79e-05
+
+      GenerateMesh_hHotSpots
+	3e-06
+
+      GenerateMesh_hHighAspect
+	0.0002982
+
+      GenerateMesh_hInVolumes
+	1.03e-05
+
+      GenerateMesh_FEM_MESHER_restrictHAroundPorts
+	7.98e-05
+
+    GenerateMesh_hEstimation	0.0005162
+
+    GenerateMesh_mesh_prepare
+
+      GenerateMesh_meshEdges
+
+        InsertVertices
+	1.54e-05
+
+        RestrictHEdgeCurvature
+	0.0001008
+
+        RestrictHVertexCurvature
+	5.19e-05
+
+      GenerateMesh_meshEdges	0.0084957
+
+      GenerateMesh_meshFaces
+
+        2DMesh
+
+          AddFaceDescriptor
+	6.45e-05
+
+        2DMesh	0.0376766
+
+        AssignSurfaceAreas
+	8.2e-06
+
+        Optimize2DMesh
+
+          FaceOptBlock
+
+            FaceOptBlock
+
+            FaceOptBlock	7.35e-05
+
+            FaceOptBlock
+
+            FaceOptBlock	0.000423
+
+            FaceOptBlock
+
+            FaceOptBlock	0.0004566
+
+            FaceOptBlock
+
+            FaceOptBlock	0.007862
+	0.0034075
+
+        Optimize2DMesh	0.0122311
+
+      GenerateMesh_meshFaces	0.0500378
+
+    GenerateMesh_mesh_prepare	0.0585494
+
+    GenerateMesh_volumeMeshing
+
+      CompressMesh
+	3.27e-05
+
+      CheckBoundaries
+
+        BuildTree
+	2.7e-06
+
+        CheckConsistentBoundary
+	0.0021731
+
+      CheckBoundaries	0.0022236
+
+      MeshVolume
+
+        MeshDomain
+	0.0193616
+
+        MeshDomain
+	0.0116174
+
+        MeshDomain
+	0.006143
+
+      MeshVolume	0.0373647
+
+      RemoveIllegalElements
+	0.0003629
+
+      GenerateMesh_quality
+	0.0001276
+
+    GenerateMesh_volumeMeshing	0.0401751
+
+    GenerateMesh_optimizeVolume
+	0.0276764
+
+  GenerateMesh	0.127176
+
+  SaveMeshOvm
+	0.0133935
+
+Em_Create_Mesh in workingDir		0.167208
