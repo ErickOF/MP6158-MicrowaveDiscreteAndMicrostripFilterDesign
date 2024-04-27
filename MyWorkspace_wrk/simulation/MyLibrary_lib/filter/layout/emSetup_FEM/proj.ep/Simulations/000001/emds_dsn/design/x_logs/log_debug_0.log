@@ -1,0 +1,661 @@
+[x_emds.py:1599] 2024-04-21 18:52:51,007   SocketListener           DEBUG   : initLogger
+[x_emds.py:1959] 2024-04-21 18:52:51,007   SocketListener           DEBUG   : controller node's HOST: 127.0.0.1     PORT: 54550
+[x_emds.py:1971] 2024-04-21 18:52:51,007   SocketListener           DEBUG   : SockListener started
+[x_emds.py:1459] 2024-04-21 18:52:52,139   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_mesher.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iacis=emds_dsn\design\design.sat' '--Icalc=Run0001\project.input' '--Iicp=emds_dsn\design\design.icp' '--Iivs=emds_dsn\design\design.ivs' '--Ovol=emds_dsn\design\design.vol' '--Oovm=emds_dsn\design\level1\design.ovm' '--Omovm=emds_dsn\design\level1\design.movm' '--Ores=emds_dsn\design\design.comb' '--Ocout=emds_dsn\design\design_cout.out' --license-file=emds_dsn/design/.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE3MjEzOToxOthviRlXwN2P3IZUtrneGfRfXA1a
+[x_emds.py:1440] 2024-04-21 18:52:53,158   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level1 level1 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE3MzE1ODoxOm4MVhr9xqfHEYYa3s8NT+lJur3y
+[x_emds.py:1459] 2024-04-21 18:52:54,170   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level1\design.ovm' '--Imovm=emds_dsn\design\level1\design.movm' '--Iref=emds_dsn\design\level1\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level2\design.ovm' '--Omovm=emds_dsn\design\level2\design.movm' '--Otim=emds_dsn\design\level2\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:52:55,182   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level2 level2 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE3NTE4MjoxOgZn+urr6iToT2aUX3+GwL1gf5rE
+[x_emds.py:1459] 2024-04-21 18:52:56,192   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level2\design.ovm' '--Imovm=emds_dsn\design\level2\design.movm' '--Iref=emds_dsn\design\level2\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level3\design.ovm' '--Omovm=emds_dsn\design\level3\design.movm' '--Otim=emds_dsn\design\level3\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:52:57,210   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level3 level3 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE3NzIwOToxOgKVJoLGI9I2blYKicEDGrSkJIEw
+[x_emds.py:1459] 2024-04-21 18:52:58,233   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level3\design.ovm' '--Imovm=emds_dsn\design\level3\design.movm' '--Iref=emds_dsn\design\level3\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level4\design.ovm' '--Omovm=emds_dsn\design\level4\design.movm' '--Otim=emds_dsn\design\level4\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:52:59,261   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level4 level4 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE3OTI2MToxOhmezn+85mvf0F1tgi5xwq7Ej4Np
+[x_emds.py:1459] 2024-04-21 18:53:00,281   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level4\design.ovm' '--Imovm=emds_dsn\design\level4\design.movm' '--Iref=emds_dsn\design\level4\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level5\design.ovm' '--Omovm=emds_dsn\design\level5\design.movm' '--Otim=emds_dsn\design\level5\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:53:01,312   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level5 level5 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4MTMxMjoxOngkHGFLWL3qXBaJMj2C9uXJ45YV
+[x_emds.py:1459] 2024-04-21 18:53:02,336   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level5\design.ovm' '--Imovm=emds_dsn\design\level5\design.movm' '--Iref=emds_dsn\design\level5\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level6\design.ovm' '--Omovm=emds_dsn\design\level6\design.movm' '--Otim=emds_dsn\design\level6\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:53:03,358   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level6 level6 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4MzM1ODoxOpSUj5EKaNxDj3s5HsDg7E3uFby7
+[x_emds.py:1459] 2024-04-21 18:53:04,365   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\fem_xadapt.exe' '--awd=C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\' '--logs=emds_dsn\design' '--Ioxml=emds_dsn\design\options.xml' '--Iovm=emds_dsn\design\level6\design.ovm' '--Imovm=emds_dsn\design\level6\design.movm' '--Iref=emds_dsn\design\level6\design.ref' '--Ires=emds_dsn\design\design.comb' '--Icalc=Run0001\project.input' '--Oovm=emds_dsn\design\level7\design.ovm' '--Omovm=emds_dsn\design\level7\design.movm' '--Otim=emds_dsn\design\level7\design_adapt.timing'
+[x_emds.py:1440] 2024-04-21 18:53:05,382   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level7 level7 --use_x_mode=1 --use_x_socket=0 --x_modetype=refine --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4NTM4MjoxOowTU6AWyOMT5QQNMTko3lQ/oXiN
+[x_emds.py:1789] 2024-04-21 18:53:06,396   SocketListener           DEBUG   : await_solvers_subscribe ...
+[x_emds.py:1826] 2024-04-21 18:53:06,396   SocketListener           DEBUG   : launchIdleSolver: 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' --use_x_mode=1 --use_x_socket=1 --x_modetype=solve --x_cloud_emu_mode=0 --x_workerId=1 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4NjM5NjoxOmvEGRhs9jVtLeBvqLf3TKvrMJkS
+[x_emds.py:1479] 2024-04-21 18:53:06,397   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' --use_x_mode=1 --use_x_socket=1 --x_modetype=solve --x_cloud_emu_mode=0 --x_workerId=1 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4NjM5NjoxOmvEGRhs9jVtLeBvqLf3TKvrMJkS
+[x_emds.py:1599] 2024-04-21 18:53:06,414   CL_127.0.0.1:54578       DEBUG   : initLogger
+[x_emds.py:2071] 2024-04-21 18:53:06,414   CL_127.0.0.1:54578       DEBUG   : Connected: 127.0.0.1:54578
+[x_emds.py:2085] 2024-04-21 18:53:06,415   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_subscribe", "workerId": "1", "hostname": "ArthurPC"} thread id: 13648
+[x_emds.py:2650] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : x_subscribe: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,417   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:1599] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : initLogger
+[x_emds.py:2071] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : Connected: 127.0.0.1:54579
+[x_emds.py:2085] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:06,418   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:06,673   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:06,673   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,673   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:1440] 2024-04-21 18:53:06,909   SocketListener           DEBUG   : 'C:\Program Files\Keysight\ADS2024\fem\2024.00\win32_64\bin\emds_solve3d64.exe' 'C:\Users\artur\Documents\ADS\proyecto_wrk\MyWorkspace_wrk\simulation\MyLibrary_lib\filter\layout\emSetup_FEM\proj.ep\Simulations\000001\emds_dsn\design' level6 level6 --use_x_mode=1 --use_x_socket=1 --x_modetype=freqgen --x_workerId=0 --socket_host=127.0.0.1 --socket_port=54550 --license-file=.lic.ctx --license-token=MTY0NzA3MzMzMzI0OTM4MjY4ODc6MTcxMzc0NzE4NjkwOToxOrn+vBNCKncTluN28QOSjYeQW7oF
+[x_emds.py:1599] 2024-04-21 18:53:06,931   CL_127.0.0.1:54580       DEBUG   : initLogger
+[x_emds.py:2071] 2024-04-21 18:53:06,931   CL_127.0.0.1:54580       DEBUG   : Connected: 127.0.0.1:54580
+[x_emds.py:2085] 2024-04-21 18:53:06,931   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:06,933   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "x_subscribe", "workerId": "0", "hostname": "ArthurPC"} thread id: 25292
+[x_emds.py:2650] 2024-04-21 18:53:06,933   CL_127.0.0.1:54580       DEBUG   : x_subscribe: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,933   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:1599] 2024-04-21 18:53:06,934   CL_127.0.0.1:54581       DEBUG   : initLogger
+[x_emds.py:2456] 2024-04-21 18:53:06,934   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_determine_setup_data", "workerId": "0"} thread id: 25292
+[x_emds.py:2071] 2024-04-21 18:53:06,934   CL_127.0.0.1:54581       DEBUG   : Connected: 127.0.0.1:54581
+[x_emds.py:2479] 2024-04-21 18:53:06,934   CL_127.0.0.1:54580       DEBUG   : fg_determine_setup_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,934   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2085] 2024-04-21 18:53:06,934   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:06,934   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2144] 2024-04-21 18:53:06,934   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '0', 'type': 'fg_determine_setup_data', 'args': {'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:06,935   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2632] 2024-04-21 18:53:06,935   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2572] 2024-04-21 18:53:06,935   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2634] 2024-04-21 18:53:06,935   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:06,935   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2085] 2024-04-21 18:53:06,935   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:06,937   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:06,937   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "0", "type": "fg_determine_setup_data", "args": {"Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:06,937   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "report_setup_data", "workerId": "1", "jobId": "0", "data": "{\n    \"sql_comps_pins\": \"INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\\n\",\n    \"hasWaveguidePorts\": \"0\",\n    \"allWaveguidePortsAreInternal\": \"1\"\n}\n"} thread id: 13648
+[x_emds.py:2486] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : report_setup_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,057   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,311   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:07,311   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,311   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_setup_data", "workerId": "0"} thread id: 25292
+[x_emds.py:2493] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : fg_get_setup_data: replying {"data": {"sql_comps_pins": "INSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P1','0','0','0','current source','-1','-1','1','0','Zpi');\nINSERT INTO 'component' (name, id, idEMPro, idADS, type, port, mode, nodal, offset, Zdef) VALUES('P2','1','1','1','current source','-1','-1','1','0','Zpi');\n", "hasWaveguidePorts": "0", "allWaveguidePortsAreInternal": "1"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,435   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,438   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_determine_cutoff_intervals", "workerId": "0", "minF": "0.000000000000000", "maxF": "5000000000.000000000000000"} thread id: 25292
+[x_emds.py:2535] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : fg_determine_cutoff_intervals: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2203] 2024-04-21 18:53:07,439   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '1', 'type': 'determine_cutoff_intervals', 'args': {'minF': '0.000000000000000', 'maxF': '5000000000.000000000000000', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "1", "type": "determine_cutoff_intervals", "args": {"minF": "0.000000000000000", "maxF": "5000000000.000000000000000", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "report_cutoff_intervals", "workerId": "1", "jobId": "1", "data": ""} thread id: 13648
+[x_emds.py:2542] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : report_cutoff_intervals: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,562   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,827   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:07,827   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,827   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:07,920   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:07,920   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:07,920   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:07,920   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_cutoff_intervals", "workerId": "0"} thread id: 25292
+[x_emds.py:2549] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : fg_get_cutoff_intervals: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,949   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,950   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "1000.000000000000000", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:07,951   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '2', 'type': 'solve', 'args': {'simdir': 'f_1000.0', 'Fsolve': '1000.000000000000000', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:08,090   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:08,090   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "2", "type": "solve", "args": {"simdir": "f_1000.0", "Fsolve": "1000.000000000000000", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,090   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:08,445   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "2", "data": {"Fsolve": "1000.000000000000000", "subdir": "f_1000.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "234237952.000000000000000", "cpu_time": "1.406250000000000", "e_time": "1.492569200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:08,445   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,446   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:08,446   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:08,446   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,446   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:08,449   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:08,449   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:08,449   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:08,449   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:08,464   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:08,464   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "1000.000000000000000", "subdir": "f_1000.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "234237952.000000000000000", "cpu_time": "1.406250000000000", "e_time": "1.492569200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "2"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,464   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,476   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["2"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:08,476   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,476   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,480   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:08,480   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,480   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,698   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:08,698   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,698   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:08,962   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:08,962   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,962   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:08,992   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "1666667333.333333253860474", "iterative_order": "2"}, {"Fsolve": "3333333666.666666507720947", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '3', 'type': 'solve', 'args': {'simdir': 'f_1666667333.3333333', 'Fsolve': '1666667333.333333253860474', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2274] 2024-04-21 18:53:09,004   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '4', 'type': 'solve', 'args': {'simdir': 'f_3333333666.6666665', 'Fsolve': '3333333666.666666507720947', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:09,212   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:09,212   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "3", "type": "solve", "args": {"simdir": "f_1666667333.3333333", "Fsolve": "1666667333.333333253860474", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,212   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,374   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "3", "data": {"Fsolve": "1666667333.333333253860474", "subdir": "f_1666667333.3333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "234971136.000000000000000", "cpu_time": "0.468750000000000", "e_time": "0.929030400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:09,375   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,375   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,375   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:09,375   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "4", "type": "solve", "args": {"simdir": "f_3333333666.6666665", "Fsolve": "3333333666.666666507720947", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,375   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,434   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:09,434   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:09,434   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:09,434   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:09,511   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:09,511   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "1666667333.333333253860474", "subdir": "f_1666667333.3333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "234971136.000000000000000", "cpu_time": "0.468750000000000", "e_time": "0.929030400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "3"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,511   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:09,513   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["3"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:09,513   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,514   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:09,518   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:09,518   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,518   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "4", "data": {"Fsolve": "3333333666.666666507720947", "subdir": "f_3333333666.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236249088.000000000000000", "cpu_time": "0.390625000000000", "e_time": "0.149692800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,524   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,775   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:09,775   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:09,775   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:09,962   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:09,962   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:09,962   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:09,962   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:10,023   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,023   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "3333333666.666666507720947", "subdir": "f_3333333666.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236249088.000000000000000", "cpu_time": "0.390625000000000", "e_time": "0.149692800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "4"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,023   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,026   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["4"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:10,026   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,026   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,028   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,033   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "833334166.666666626930237", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:10,033   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,034   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,034   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:10,034   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,034   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:10,034   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '5', 'type': 'solve', 'args': {'simdir': 'f_833334166.6666666', 'Fsolve': '833334166.666666626930237', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:10,039   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:10,039   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "5", "type": "solve", "args": {"simdir": "f_833334166.6666666", "Fsolve": "833334166.666666626930237", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,039   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,189   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "5", "data": {"Fsolve": "833334166.666666626930237", "subdir": "f_833334166.6666666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236249088.000000000000000", "cpu_time": "0.906250000000000", "e_time": "0.664835500000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:10,189   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,189   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,189   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:10,189   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,190   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,444   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:10,444   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,444   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,537   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,537   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "833334166.666666626930237", "subdir": "f_833334166.6666666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236249088.000000000000000", "cpu_time": "0.906250000000000", "e_time": "0.664835500000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "5"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,537   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,540   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["5"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:10,540   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,540   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,542   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "4166666833.333333015441895", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,547   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:10,548   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '6', 'type': 'solve', 'args': {'simdir': 'f_4166666833.333333', 'Fsolve': '4166666833.333333015441895', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:10,707   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:10,707   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "6", "type": "solve", "args": {"simdir": "f_4166666833.333333", "Fsolve": "4166666833.333333015441895", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,707   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,851   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "6", "data": {"Fsolve": "4166666833.333333015441895", "subdir": "f_4166666833.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236535808.000000000000000", "cpu_time": "0.890625000000000", "e_time": "0.663473800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:10,852   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,852   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,852   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:10,852   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:10,852   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:10,939   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:10,939   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:10,939   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:10,939   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:11,049   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,049   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "4166666833.333333015441895", "subdir": "f_4166666833.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236535808.000000000000000", "cpu_time": "0.890625000000000", "e_time": "0.663473800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "6"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,049   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,052   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["6"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:11,052   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,052   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,053   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,055   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,055   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,060   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "2500000500.000000000000000", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:11,061   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '7', 'type': 'solve', 'args': {'simdir': 'f_2500000500.0', 'Fsolve': '2500000500.000000000000000', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:11,112   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:11,112   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "7", "type": "solve", "args": {"simdir": "f_2500000500.0", "Fsolve": "2500000500.000000000000000", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,112   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "7", "data": {"Fsolve": "2500000500.000000000000000", "subdir": "f_2500000500.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236535808.000000000000000", "cpu_time": "0.859375000000000", "e_time": "0.417413900000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,270   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,472   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:11,472   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:11,472   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:11,472   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:11,534   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:11,534   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,534   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,565   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,565   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "2500000500.000000000000000", "subdir": "f_2500000500.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236535808.000000000000000", "cpu_time": "0.859375000000000", "e_time": "0.417413900000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "7"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,565   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,576   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["7"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:11,576   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,576   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,577   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:11,577   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,577   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,578   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "1250000750.000000000000000", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:11,585   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '8', 'type': 'solve', 'args': {'simdir': 'f_1250000750.0', 'Fsolve': '1250000750.000000000000000', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:11,799   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:11,799   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "8", "type": "solve", "args": {"simdir": "f_1250000750.0", "Fsolve": "1250000750.000000000000000", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,799   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "8", "data": {"Fsolve": "1250000750.000000000000000", "subdir": "f_1250000750.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.765625000000000", "e_time": "0.682674200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:11,952   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,095   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:12,095   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "1250000750.000000000000000", "subdir": "f_1250000750.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.765625000000000", "e_time": "0.682674200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "8"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,095   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,098   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["8"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:12,098   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,098   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,099   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,100   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "1458334041.666666507720947", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,108   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:12,109   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '9', 'type': 'solve', 'args': {'simdir': 'f_1458334041.6666665', 'Fsolve': '1458334041.666666507720947', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:12,204   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:12,204   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "9", "type": "solve", "args": {"simdir": "f_1458334041.6666665", "Fsolve": "1458334041.666666507720947", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,204   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "9", "data": {"Fsolve": "1458334041.666666507720947", "subdir": "f_1458334041.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.796875000000000", "e_time": "0.419913400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,372   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,452   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:12,452   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:12,452   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:12,452   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:12,623   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,623   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2611] 2024-04-21 18:53:12,623   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2588] 2024-04-21 18:53:12,623   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "1458334041.666666507720947", "subdir": "f_1458334041.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.796875000000000", "e_time": "0.419913400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "9"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,623   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2085] 2024-04-21 18:53:12,623   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,635   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["9"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:12,635   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,635   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,636   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "3750000250.000000000000000", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,645   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:12,646   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '10', 'type': 'solve', 'args': {'simdir': 'f_3750000250.0', 'Fsolve': '3750000250.000000000000000', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:12,874   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:12,874   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "10", "type": "solve", "args": {"simdir": "f_3750000250.0", "Fsolve": "3750000250.000000000000000", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:12,874   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:12,983   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:12,983   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:12,983   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:12,983   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "10", "data": {"Fsolve": "3750000250.000000000000000", "subdir": "f_3750000250.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "1.546875000000000", "e_time": "0.652439300000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,025   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,153   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,153   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "3750000250.000000000000000", "subdir": "f_3750000250.0", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "1.546875000000000", "e_time": "0.652439300000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "10"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,153   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,155   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["10"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:13,155   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,155   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,156   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,157   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,165   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "4583333416.666666030883789", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:13,167   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '11', 'type': 'solve', 'args': {'simdir': 'f_4583333416.666666', 'Fsolve': '4583333416.666666030883789', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:13,277   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:13,277   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "11", "type": "solve", "args": {"simdir": "f_4583333416.666666", "Fsolve": "4583333416.666666030883789", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,277   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,441   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "11", "data": {"Fsolve": "4583333416.666666030883789", "subdir": "f_4583333416.666666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.890625000000000", "e_time": "0.415948300000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:13,441   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,441   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,442   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:13,442   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,442   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,682   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,682   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "4583333416.666666030883789", "subdir": "f_4583333416.666666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "236765184.000000000000000", "cpu_time": "0.890625000000000", "e_time": "0.415948300000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "11"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,682   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,693   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["11"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:13,693   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,693   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,694   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,696   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:13,696   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,696   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,698   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:13,698   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,698   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "4791666708.333333015441895", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:13,705   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '12', 'type': 'solve', 'args': {'simdir': 'f_4791666708.333333', 'Fsolve': '4791666708.333333015441895', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:13,962   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2456] 2024-04-21 18:53:13,962   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2611] 2024-04-21 18:53:13,962   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "12", "type": "solve", "args": {"simdir": "f_4791666708.333333", "Fsolve": "4791666708.333333015441895", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2632] 2024-04-21 18:53:13,962   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:13,962   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2634] 2024-04-21 18:53:13,962   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:13,962   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:14,107   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "12", "data": {"Fsolve": "4791666708.333333015441895", "subdir": "f_4791666708.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237080576.000000000000000", "cpu_time": "1.140625000000000", "e_time": "0.666857500000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:14,108   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,108   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,108   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:14,108   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,108   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,210   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,210   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "4791666708.333333015441895", "subdir": "f_4791666708.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237080576.000000000000000", "cpu_time": "1.140625000000000", "e_time": "0.666857500000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "12"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,210   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,213   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["12"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:14,213   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,213   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,214   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:14,214   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,214   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,215   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,225   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "4895833354.166666030883789", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:14,226   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '13', 'type': 'solve', 'args': {'simdir': 'f_4895833354.166666', 'Fsolve': '4895833354.166666030883789', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:14,363   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:14,363   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "13", "type": "solve", "args": {"simdir": "f_4895833354.166666", "Fsolve": "4895833354.166666030883789", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,363   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,488   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:14,488   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:14,488   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:14,488   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:14,520   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "13", "data": {"Fsolve": "4895833354.166666030883789", "subdir": "f_4895833354.166666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "1.000000000000000", "e_time": "0.412610200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:14,520   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,521   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,521   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:14,521   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,521   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,736   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,736   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "4895833354.166666030883789", "subdir": "f_4895833354.166666", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "1.000000000000000", "e_time": "0.412610200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "13"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,736   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,739   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["13"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:14,739   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,739   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,740   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,741   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:14,741   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,741   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "2916667083.333333015441895", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:14,761   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '14', 'type': 'solve', 'args': {'simdir': 'f_2916667083.333333', 'Fsolve': '2916667083.333333015441895', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:14,782   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:14,782   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "14", "type": "solve", "args": {"simdir": "f_2916667083.333333", "Fsolve": "2916667083.333333015441895", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,782   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "14", "data": {"Fsolve": "2916667083.333333015441895", "subdir": "f_2916667083.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.718750000000000", "e_time": "0.422057800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:14,942   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,205   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:15,205   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,205   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,267   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,267   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "2916667083.333333015441895", "subdir": "f_2916667083.333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.718750000000000", "e_time": "0.422057800000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "14"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,267   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,270   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["14"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:15,270   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,270   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,271   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:15,271   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,271   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,271   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,271   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,272   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,272   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,272   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,272   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "2708333791.666666507720947", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:15,284   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '15', 'type': 'solve', 'args': {'simdir': 'f_2708333791.6666665', 'Fsolve': '2708333791.666666507720947', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:15,456   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:15,456   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "15", "type": "solve", "args": {"simdir": "f_2708333791.6666665", "Fsolve": "2708333791.666666507720947", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,456   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,471   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:15,471   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:15,471   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:15,471   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:2456] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "15", "data": {"Fsolve": "2708333791.666666507720947", "subdir": "f_2708333791.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.812500000000000", "e_time": "0.666937200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,609   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,797   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,797   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "2708333791.666666507720947", "subdir": "f_2708333791.6666665", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.812500000000000", "e_time": "0.666937200000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "15"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,797   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,800   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["15"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:15,800   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,800   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,801   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,802   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_solve_frequencies", "workerId": "0", "data": [{"Fsolve": "416667583.333333313465118", "iterative_order": "2"}]} thread id: 25292
+[x_emds.py:2565] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : fg_solve_frequencies: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "0", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2274] 2024-04-21 18:53:15,815   CL_127.0.0.1:54580       DEBUG   : job: {'jobId': '16', 'type': 'solve', 'args': {'simdir': 'f_416667583.3333333', 'Fsolve': '416667583.333333313465118', 'iterative_order': '2', 'Iovm': '/level6/design.ovm', 'Icalc': '/../../Run0001/project.input', 'Igeo': '/../../Run0001/geometry.input', 'lvldir': 'level6'}, 'status': 'created', 'data': [], 'workerId': -1, 'processed': 0}
+[x_emds.py:2456] 2024-04-21 18:53:15,874   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:15,874   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"jobId": "16", "type": "solve", "args": {"simdir": "f_416667583.3333333", "Fsolve": "416667583.333333313465118", "iterative_order": "2", "Iovm": "/level6/design.ovm", "Icalc": "/../../Run0001/project.input", "Igeo": "/../../Run0001/geometry.input", "lvldir": "level6"}, "status": "started", "data": [], "workerId": "1", "processed": 0}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:15,874   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:15,998   CL_127.0.0.1:54581       DEBUG   : handleData: {"method": "x_ping", "workerId": "0"} thread id: 18276
+[x_emds.py:2632] 2024-04-21 18:53:15,998   CL_127.0.0.1:54581       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2634] 2024-04-21 18:53:15,998   CL_127.0.0.1:54581       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 18276
+[x_emds.py:2085] 2024-04-21 18:53:15,998   CL_127.0.0.1:54581       DEBUG   : Start recv for Thread: 18276
+[x_emds.py:2456] 2024-04-21 18:53:16,039   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_report_data", "workerId": "1", "jobId": "16", "data": {"Fsolve": "416667583.333333313465118", "subdir": "f_416667583.3333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.953125000000000", "e_time": "0.430433400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}} thread id: 13648
+[x_emds.py:2618] 2024-04-21 18:53:16,040   CL_127.0.0.1:54578       DEBUG   : x_solve_report_data: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,040   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:16,040   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:16,040   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,040   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:16,294   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:16,294   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,294   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:16,326   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:16,326   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [{"data": {"Fsolve": "416667583.333333313465118", "subdir": "f_416667583.3333333", "has_blg": "0", "iterative_converged": "1"}, "metadata": {"solver_type": "1", "nb_unknowns": "27568", "memory": "237400064.000000000000000", "cpu_time": "0.953125000000000", "e_time": "0.430433400000000", "nb_iter": "-1", "norm_res": "-1.000000000000000", "discretization_order": "0", "lst_success": "1"}, "jobId": "16"}], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,326   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:16,329   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_mark_solved_jobs_as_processed", "workerId": "0", "data": ["16"]} thread id: 25292
+[x_emds.py:2601] 2024-04-21 18:53:16,329   CL_127.0.0.1:54580       DEBUG   : fg_mark_solved_jobs_as_processed: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,329   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_run_status", "workerId": "0"} thread id: 25292
+[x_emds.py:2572] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : fg_run_status: replying {"data": "1", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "fg_get_unprocessed_solved_frequencies", "workerId": "0"} thread id: 25292
+[x_emds.py:2588] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : fg_get_unprocessed_solved_frequencies: replying {"data": [], "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,331   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2456] 2024-04-21 18:53:16,359   CL_127.0.0.1:54580       DEBUG   : handleData: {"method": "x_unsubscribe", "workerId": "0"} thread id: 25292
+[x_emds.py:2662] 2024-04-21 18:53:16,359   CL_127.0.0.1:54580       DEBUG   : x_unsubscribe: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,359   CL_127.0.0.1:54580       DEBUG   : Start recv for Thread: 25292
+[x_emds.py:2089] 2024-04-21 18:53:16,359   CL_127.0.0.1:54580       DEBUG   : Disconnected[1]: 127.0.0.1:54580
+[x_emds.py:2089] 2024-04-21 18:53:16,360   CL_127.0.0.1:54581       DEBUG   : Disconnected[1]: 127.0.0.1:54581
+[x_emds.py:2456] 2024-04-21 18:53:16,548   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:16,548   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,548   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:16,811   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:16,811   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "noop"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:16,811   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:16,981   CL_127.0.0.1:54579       DEBUG   : handleData: {"method": "x_ping", "workerId": "1"} thread id: 2796
+[x_emds.py:2632] 2024-04-21 18:53:16,981   CL_127.0.0.1:54579       DEBUG   : x_ping: replying {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2634] 2024-04-21 18:53:16,981   CL_127.0.0.1:54579       DEBUG   : x_ping: replied {"data": "", "status": "ok"} thread id: 2796
+[x_emds.py:2085] 2024-04-21 18:53:16,981   CL_127.0.0.1:54579       DEBUG   : Start recv for Thread: 2796
+[x_emds.py:1995] 2024-04-21 18:53:17,023   SocketListener           DEBUG   : gracefulExit called
+[x_emds.py:2456] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_solve_poll_for_job", "workerId": "1"} thread id: 13648
+[x_emds.py:2611] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : x_solve_poll_for_job: replying {"data": {"status": "exit"}, "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2456] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : handleData: {"method": "x_unsubscribe", "workerId": "1"} thread id: 13648
+[x_emds.py:2662] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : x_unsubscribe: replying {"data": "", "status": "ok"}
+[x_emds.py:2085] 2024-04-21 18:53:17,073   CL_127.0.0.1:54578       DEBUG   : Start recv for Thread: 13648
+[x_emds.py:2089] 2024-04-21 18:53:17,080   CL_127.0.0.1:54578       DEBUG   : Disconnected[1]: 127.0.0.1:54578
+[x_emds.py:2089] 2024-04-21 18:53:17,080   CL_127.0.0.1:54579       DEBUG   : Disconnected[1]: 127.0.0.1:54579
+[x_emds.py:2008] 2024-04-21 18:53:18,036   SocketListener           DEBUG   : count_zombies: 0/1  attempt:1
+[x_emds.py:238] 2024-04-21 18:53:18,038   SocketListener           DEBUG   : stopSocketServer
+[x_emds.py:1989] 2024-04-21 18:53:19,046   SocketListener           DEBUG   : SocketListener terminating

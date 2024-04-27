@@ -1,0 +1,8 @@
+<!DOCTYPE SaveWorkspaceState>
+<SaveWorkspaceState>
+    <Windows>
+        <Layout y1="375" cell="filter" view="layout" x1="3439" width="1680" lib="MyLibrary_lib" height="979" geom="1,2,3,-1230,212,2752,1077,1680,1050"/>
+        <Substrate y1="375" file="subtrato" x1="3439" width="1680" lib="MyLibrary_lib" height="979" geom="1,2,3,365,221,1627,1113,1680,1050"/>
+    </Windows>
+    <MainWindowTab tab="1"/>
+</SaveWorkspaceState>

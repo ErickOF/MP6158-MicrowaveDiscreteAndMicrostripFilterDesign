@@ -1,0 +1,195 @@
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+
+
+Flimit=1000, Fmin=0
+adaptively solving frequency plan: 
+requested discrete frequencies: 0 Hz 5 GHz 
+requested frequency ranges: 
+[ 0 Hz , 5 GHz ], #=50
+Fdc = 1000
+no cutoff intervals detected
+cutoff intervals:
+== ISOLATED DISCRETE FREQUENCIES ==========================
+
+===============================================
+== ADAPTIVE FIT in [1e-06 , 5] GHz, maxNbSamples=50 =========================
+===============================================
+Fitting options : 
+  nbInitialSamplesPerInterval                : 4
+  nbTestPointsPerInterval                    : 10
+  maxDepthDifference                         : 3
+  relFreqFactorForDistance                   : 0
+  nbTestPointsForDistance                    : 1
+  maxDistanceBetweenModels                   : 0.01
+  maxDistanceFromSamples                     : 0.001
+  nbNewSamples                               : 1
+  nbNewDiscreteSamples                       : 0
+  maxNbIntervalsToBeSubdivided               : 1
+  maxNbSamples                               : 50
+  minAbsDistanceBetweenSubsequentFrequencies : 10
+  minRelDistanceBetweenSubsequentFrequencies : 0.001
+  passivityThreshold                         : 0.005
+  useSvdForPassivity                         : 0
+  enforcePassivity                           : 0
+  enforceCausality                           : 0
+  maxPhaseDifferenceBetweenSubsequentSamples : 2.0944
+  unwrapPhaseDifference                      : 0
+  amplitudeThresholdForMaxPhaseDifference    : 0.01
+  maxNbSamplesInModelRange                   : 30
+  model type for S-parameters                : 3
+  #poles - #zeros                            : [-1 , -1]
+  maxNbPoles                                 : 100
+  maxImpedanceRelDistanceFromSamples         : 0.01
+  maxNbThreads                               : 8
+  extrapolateToDc                            : 0
+  vectorfitting_mirrorPolesIntoLHP           : 0
+  vectorfitting_maxNbIterations              : 5
+  vectorfitting_leastSquaresMode             : QR
+  vectorfitting_incremental                  : 1
+== #samples 4 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [      1000, 1.667e+09], depth=0 : passivity=  3.13@( 7.576e+08 Hz, r=  0, c=  0), distance=  1.97@( 9.091e+08 Hz, r=  0, c=  1), delta_phase=  2.17@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 3.333e+09,     5e+09], depth=0 : passivity= 0.429@( 3.636e+09 Hz, r=  0, c=  0), distance=  3.07@( 3.939e+09 Hz, r=  0, c=  0), delta_phase=  2.88@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 1.667e+09, 3.333e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  1.09@(  1.97e+09 Hz, r=  1, c=  1), delta_phase=  2.84@(        -1 Hz, r=  1, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.488 Mbyte     virtual= 12.992 Mbyte     ) : 
+  [1000 , 1.667e+09] : 8.333e+08, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.488 Mbyte     virtual= 12.992 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.555 Mbyte     virtual= 13.086 Mbyte      sec
+== #samples 5 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 3.333e+09,     5e+09], depth=0 : passivity=  8.82@( 3.939e+09 Hz, r=  0, c=  0), distance=  2.54@( 3.939e+09 Hz, r=  0, c=  0), delta_phase=  2.88@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 8.333e+08, 1.667e+09], depth=1 : passivity=   5.5@( 1.439e+09 Hz, r=  0, c=  0), distance=  2.24@( 1.439e+09 Hz, r=  0, c=  0), delta_phase=  2.37@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  1.15@( 6.818e+08 Hz, r=  0, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 1.667e+09, 3.333e+09], depth=0 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.991@( 2.727e+09 Hz, r=  1, c=  1), delta_phase=  2.84@(        -1 Hz, r=  1, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.555 Mbyte     virtual= 13.086 Mbyte     ) : 
+  [3.333e+09 , 5e+09] : 4.167e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.555 Mbyte     virtual= 13.086 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.645 Mbyte     virtual= 13.121 Mbyte      sec
+== #samples 6 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 1.667e+09, 3.333e+09], depth=0 : passivity= 0.735@( 2.273e+09 Hz, r=  1, c=  1), distance=   1.5@( 2.576e+09 Hz, r=  1, c=  1), delta_phase=  2.84@(        -1 Hz, r=  1, c=  1)
+  Fitting error in [ 8.333e+08, 1.667e+09], depth=1 : passivity= 0.267@( 1.364e+09 Hz, r=  1, c=  1), distance=  2.54@( 1.439e+09 Hz, r=  0, c=  0), delta_phase=  2.37@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 3.333e+09, 4.167e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=  2.54@( 4.015e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 4.167e+09,     5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=   2.1@( 4.167e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.131@( 5.303e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.645 Mbyte     virtual= 13.121 Mbyte     ) : 
+  [1.667e+09 , 3.333e+09] : 2.5e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.645 Mbyte     virtual= 13.121 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.684 Mbyte     virtual= 13.172 Mbyte      sec
+== #samples 7 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 8.333e+08, 1.667e+09], depth=1 : passivity=  1.04@( 1.364e+09 Hz, r=  1, c=  1), distance= 0.695@( 1.364e+09 Hz, r=  1, c=  1), delta_phase=  2.37@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 1.667e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.493@( 2.121e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 4.167e+09,     5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.482@( 4.848e+09 Hz, r=  0, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [   2.5e+09, 3.333e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.284@(   2.5e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.102@( 5.303e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 3.333e+09, 4.167e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0182@( 3.788e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.684 Mbyte     virtual= 13.172 Mbyte     ) : 
+  [8.333e+08 , 1.667e+09] : 1.25e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.684 Mbyte     virtual= 13.172 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.816 Mbyte     virtual= 13.301 Mbyte      sec
+== #samples 8 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [  1.25e+09, 1.667e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.818@( 1.402e+09 Hz, r=  1, c=  1), delta_phase=  2.91@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 8.333e+08,  1.25e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.386@( 1.174e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 1.667e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.196@(  1.97e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 3.333e+09, 4.167e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.147@( 3.636e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 4.167e+09,     5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0744@( 4.848e+09 Hz, r=  0, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0705@( 5.303e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [   2.5e+09, 3.333e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0613@( 2.879e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.816 Mbyte     virtual= 13.301 Mbyte     ) : 
+  [1.25e+09 , 1.667e+09] : 1.458e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.816 Mbyte     virtual= 13.301 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.863 Mbyte     virtual= 13.344 Mbyte      sec
+== #samples 9 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 3.333e+09, 4.167e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.151@( 3.636e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 4.167e+09,     5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0628@( 4.621e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0464@( 3.788e+08 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 1.667e+09,   2.5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0428@( 2.045e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [   2.5e+09, 3.333e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0349@( 2.955e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+  Fitting error in [ 1.458e+09, 1.667e+09], depth=3 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0192@( 1.477e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [  1.25e+09, 1.458e+09], depth=3 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0174@(  1.42e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 8.333e+08,  1.25e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0129@( 1.061e+09 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.863 Mbyte     virtual= 13.344 Mbyte     ) : 
+  [3.333e+09 , 4.167e+09] : 3.75e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.863 Mbyte     virtual= 13.344 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.926 Mbyte     virtual= 13.410 Mbyte      sec
+== #samples 10 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 4.167e+09,     5e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.124@( 4.773e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0234@( 2.273e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [  3.75e+09, 4.167e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0104@( 3.864e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.926 Mbyte     virtual= 13.410 Mbyte     ) : 
+  [4.167e+09 , 5e+09] : 4.583e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.926 Mbyte     virtual= 13.410 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.484 Mbyte      sec
+== #samples 11 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 4.583e+09,     5e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0401@( 4.848e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [ 4.167e+09, 4.583e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0124@( 4.508e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0118@( 2.273e+08 Hz, r=  0, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.484 Mbyte     ) : 
+  [4.583e+09 , 5e+09] : 4.792e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.484 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.488 Mbyte      sec
+== #samples 12 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [ 4.792e+09,     5e+09], depth=3 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0102@( 4.905e+09 Hz, r=  0, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  0)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.488 Mbyte     ) : 
+  [4.792e+09 , 5e+09] : 4.896e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.488 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.488 Mbyte      sec
+== #samples 13 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 24.996 Mbyte     virtual= 13.488 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 1 kHz : 1e-05
+	at 3.33333 GHz : 1e-05
+	at 3.75 GHz : 1e-05
+	at 4.16667 GHz : 1e-05
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.094 Mbyte     virtual= 14.270 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.352 Mbyte     virtual= 14.605 Mbyte      sec
+== #samples 13 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [   2.5e+09, 3.333e+09], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0216@( 2.652e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0171@( 2.273e+08 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.352 Mbyte     virtual= 14.605 Mbyte     ) : 
+  [2.5e+09 , 3.333e+09] : 2.917e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.352 Mbyte     virtual= 14.605 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.383 Mbyte     virtual= 14.676 Mbyte      sec
+== #samples 14 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [   2.5e+09, 2.917e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0215@( 2.652e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance= 0.015@( 1.515e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+  Fitting error in [ 2.917e+09, 3.333e+09], depth=2 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0122@( 2.992e+09 Hz, r=  0, c=  0), delta_phase=    -1@(        -1 Hz, r=  1, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.383 Mbyte     virtual= 14.676 Mbyte     ) : 
+  [2.5e+09 , 2.917e+09] : 2.708e+09, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.383 Mbyte     virtual= 14.676 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.441 Mbyte     virtual= 14.676 Mbyte      sec
+== #samples 15 ======================
+sorted and limited errors, not satisfying the fitting constraints: 
+  Fitting error in [      1000, 8.333e+08], depth=1 : passivity=    -1@(        -1 Hz, r=  0, c=  0), distance=0.0155@( 1.515e+08 Hz, r=  1, c=  1), delta_phase=    -1@(        -1 Hz, r=  0, c=  1)
+new frequencies (new sample frequencies                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.441 Mbyte     virtual= 14.676 Mbyte     ) : 
+  [1000 , 8.333e+08] : 4.167e+08, 
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.441 Mbyte     virtual= 14.676 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.551 Mbyte     virtual= 14.926 Mbyte      sec
+== #samples 16 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.551 Mbyte     virtual= 14.926 Mbyte      sec
+FITTED IMPEDANCES ARE NOT ACCURATE
+--> changing maxDistanceFromSamples:
+	at 1 kHz : 1e-07
+--> REFITTING
+--> fit time : fit                                      : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.551 Mbyte     virtual= 15.039 Mbyte      sec
+--> errors   : errors                                   : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.582 Mbyte     virtual= 15.488 Mbyte      sec
+== #samples 16 ======================
+sorted and limited errors, not satisfying the fitting constraints: none
+--> checking accuracy of fitted Z : checking Z                               : etime=00:00:00.0    ctime=00:00:00.0    rss= 25.582 Mbyte     virtual= 15.488 Mbyte      sec
+--> CONVERGED

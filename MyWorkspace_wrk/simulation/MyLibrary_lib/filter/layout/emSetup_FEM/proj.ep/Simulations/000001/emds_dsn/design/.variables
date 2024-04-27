@@ -1,0 +1,7 @@
+progress;0
+nbPoints;  Points    : 381
+nbEdges;  Edges     : 2276
+nbFacets;  Surfaces  : 3669
+nbVolumes;  Tetrahedra: 1773
+surfs_layer_-1;, 3669 surfaces
+elems_layer_-1;, 1773 cells
